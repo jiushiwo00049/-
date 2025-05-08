@@ -13,7 +13,7 @@ import threading  # 导入threading库，用于线程操作
 # 新增导入
 REGION = (0, 1186, 2500, 274)  # 定义截屏区域
 VOICE = 'en-US-EmmaMultilingualNeural'  # 定义语音合成的声音
-NIUTRANS_API_KEY = 'cee00dfa1aa4cd144da8cb9773bde738'  # 请替换为你的API KEY
+NIUTRANS_API_KEY = '请替换为你的API KEY'  # 请替换为你的API KEY  
 
 # 截取指定区域的屏幕并保存为图片
 def capture_region(region):  # 定义截屏函数
